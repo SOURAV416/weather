@@ -2,7 +2,7 @@ document.getElementById('getApi').addEventListener('click',callAPI);
 const apiKey='4da8a3d6fc1e4366beb160634232501'
 function callAPI(){
     var cityName=document.getElementById('cityName').value;
-    const apiUrl=`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityName}&aqi=no`
+    const apiUrl=`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityName}&aqi=no`
 
 
     //alert(cityName);
